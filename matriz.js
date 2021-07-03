@@ -1,7 +1,12 @@
 function matriz(input) {
-  while (input > 0) {
-    console.log(input);
+  var cont = 0;
+
+  for (let index = 0; index < input.length; index++) {
+    cont++;
+    const element = input[index];
+    console.log(cont);
+    console.log(element);
   }
 }
 
-matriz(5);
+matriz("5");
